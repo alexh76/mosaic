@@ -40,7 +40,7 @@ python3 mosaic.py pokemon.jpg /home/auser/mosaic/flowers/
 
 You will be prompted for the desired size of the resulting mosaic image. After that, the program will begin.
 
-The finished mosaic will take the file name "<target image>_mosaic.[extension]"
+The finished mosaic will take the file name "[target image]_mosaic.[extension]"
   
 For instance, with the example above, the mosaic will be named:
 ```
