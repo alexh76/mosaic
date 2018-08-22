@@ -24,7 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Python 3 must be installed in order to run this on your machine. The numpy and cv2 libraries must also be installed.
 
-## Running the Program
+### Running the Program
 
 Run the program in the command line with:
 
