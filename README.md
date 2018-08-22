@@ -16,6 +16,7 @@ Where they are now, img1 and img2 have a combined 1100 sum. If they were swapped
 
 Rather than calculating the Euclidean distance sum for every image at its position and comparing it with another random image at its corresponding position, the calculations are done prior to the swapping phase. This allows us to compare an extremely high number of tiles without taking much time. Thus, the bulk of the runtime comes from the prior calculations. The Euclidean distance sum of every image at every possible location is calculated and stored in an array.
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
@@ -39,6 +40,12 @@ python3 mosaic.py pokemon.jpg /home/auser/mosaic/flowers/
 
 You will be prompted for the desired size of the resulting mosaic image. After that, the program will begin.
 
+The finished mosaic will take the file name "<target image>_mosaic.[extension]"
+  
+For instance, with the example above, the mosaic will be named:
+```
+pokemon_mosaic.jpg
+```
 
 ## Acknowledgments
 
