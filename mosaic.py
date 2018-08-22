@@ -13,7 +13,7 @@ import random
 from fractions import gcd
 
 def main(targ, tiles):
-  # prompt the user for the requested resulting size and aspect ratio of the mosaic
+  # prompt the user for the requested resulting size
   target, images, res_size = prompt(targ, tiles)
   
   # get the dimensions of the target and tile images
@@ -44,7 +44,7 @@ def main(targ, tiles):
   deleteTiles()
 
 
-# prompt the user for the images to be used, as well as the wanted shape of the resulting mosaic
+# prompt the user for the images to be used
 def prompt(targ, tiles):
   print("Enter the preferred size of the resulting mosaic (1, 2, or 3).")
   print("\t 1 - Original (same size as the target image)")
